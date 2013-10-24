@@ -1,0 +1,16 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-24 12:06:20
+project --topLevelPackage ar.edu.programacion2.domain --projectName UmProyecto --java 7 --packaging WAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-24 12:06:50
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-24 12:08:59
+jpa setup --provider HIBERNATE --database MYSQL
+jpa setup --database MYSQL --provider HIBERNATE --databaseName umproyecto --hostName localhost --userName root
+entity jpa --class ~.domain.Usuario --testAutomatically
+field string --fieldName Nombre --notNull 
+field string --fieldName Apellido --notNull 
+field string --fieldName Usuario --unique --notNull 
+field string --fieldName Password --sizeMin 6 --sizeMax 10 --notNull 
+web mvc setup
+web mvc all --package ~.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-24 12:49:26
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-10-24 13:01:06
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-10-24 13:21:24
