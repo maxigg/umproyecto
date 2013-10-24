@@ -55,17 +55,11 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-            <systemPath>programa\SpringTools\springsource3.4\sts-3.4.0.RELEASE\workspace\jboss7.1Final\junit-4.11.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -290,6 +284,11 @@
     	<groupId>org.hamcrest</groupId>
     	<artifactId>hamcrest-core</artifactId>
     	<version>1.3</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.slf4j</groupId>
+    	<artifactId>slf4j-api</artifactId>
+    	<version>${slf4j.version}</version>
     </dependency>
     </dependencies>
     <build>

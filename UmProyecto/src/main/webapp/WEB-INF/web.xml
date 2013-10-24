@@ -91,4 +91,9 @@
         <error-code>404</error-code>
         <location>/resourceNotFound</location>
     </error-page>
+    
+    <persistence-unit-ref>
+		<persistence-unit-ref-name>persistence/umproyecto</persistence-unit-ref-name>
+		<persistence-unit-name>persistenceUnit</persistence-unit-name>
+	</persistence-unit-ref>
 </web-app>

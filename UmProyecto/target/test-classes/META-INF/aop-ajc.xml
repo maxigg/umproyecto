@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="ar.edu.programacion2.domain.domain.UsuarioIntegrationTest_Roo_Configurable"/>
+<aspect name="ar.edu.programacion2.domain.domain.UsuarioDataOnDemand_Roo_Configurable"/>
+<aspect name="ar.edu.programacion2.domain.domain.UsuarioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ar.edu.programacion2.domain.domain.UsuarioDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+
