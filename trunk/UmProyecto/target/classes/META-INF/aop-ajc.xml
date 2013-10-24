@@ -1,0 +1,12 @@
+<aspectj>
+<aspects>
+<aspect name="ar.edu.programacion2.domain.domain.Usuario_Roo_JavaBean"/>
+<aspect name="ar.edu.programacion2.domain.domain.Usuario_Roo_Jpa_Entity"/>
+<aspect name="ar.edu.programacion2.domain.domain.Usuario_Roo_Configurable"/>
+<aspect name="ar.edu.programacion2.domain.web.UsuarioController_Roo_Controller"/>
+<aspect name="ar.edu.programacion2.domain.domain.Usuario_Roo_Jpa_ActiveRecord"/>
+<aspect name="ar.edu.programacion2.domain.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="ar.edu.programacion2.domain.domain.Usuario_Roo_ToString"/>
+</aspects>
+</aspectj>
+
