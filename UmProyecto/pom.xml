@@ -55,7 +55,6 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-            <systemPath>programa\SpringTools\springsource3.4\sts-3.4.0.RELEASE\workspace\jboss7.1Final\junit-4.11.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
